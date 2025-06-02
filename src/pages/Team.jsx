@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
 import SectionTitle from '../components/ui/SectionTitle'
 import AimeeFils from "../assets/aimefils.jpg"
+import Ngabo from "../assets/dani5.png"
 import Ngabo from "../assets/portfolio.jpg"
 import Hypolite from "../assets/hypolite.jpg"
 const teamMembers = [
@@ -33,9 +34,8 @@ const teamMembers = [
     bio: 'Expert in backend development, frontend development, and database administration.',
     image: Ngabo,
     social: {
-      github: '#',
-      linkedin: '#',
-      twitter: '#'
+      github: 'https://github.com/ngabodaniel1000',
+      linkedin: 'https://www.linkedin.com/in/ngabo-daniel-011118283/'
     }
   },
   {
@@ -153,15 +153,7 @@ const Team = () => {
                       >
                         <FiLinkedin className="w-5 h-5" />
                       </a>
-                      <a 
-                        href={member.social.twitter} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-white hover:text-secondary-300 transition-colors"
-                        aria-label="Twitter"
-                      >
-                        <FiTwitter className="w-5 h-5" />
-                      </a>
+                   
                     </div>
                   </div>
                 </div>
