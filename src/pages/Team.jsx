@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
 import SectionTitle from '../components/ui/SectionTitle'
 import AimeeFils from "../assets/aimefils.jpg"
+import Nsanzineza from "../assets/nsanzineza moise.jpg"
 import Ngabo from "../assets/portfolio.jpg"
 const teamMembers = [
   {
@@ -38,13 +39,13 @@ const teamMembers = [
     }
   },
   {
-    name: 'Jean Claude',
-    position: 'Frontend Developer',
-    bio: 'Creates beautiful and responsive user interfaces with modern frontend frameworks.',
-    image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    name: 'Nsanzineza Moise',
+    position: 'Full-Stack & Database Developer',
+    bio: 'Full-Stack & Database Developer with expertise in building scalable web applications and optimizing data systems. Passionate about clean code, efficient databases, and seamless user experiences. Turning complex problems into elegant solutions.',
+    image: Nsanzineza,
     social: {
-      github: '#',
-      linkedin: '#',
+      github: 'https://github.com/nsanzinezamoise-coder',
+      linkedin: 'https://www.linkedin.com/in/nsanzineza-moise-6a9bb032a/',
       twitter: '#'
     }
   },
