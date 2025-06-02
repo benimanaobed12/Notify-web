@@ -14,7 +14,7 @@ const teamMembers = [
       github: '#',
       linkedin: '#',
       twitter: '#'
-    }
+    } 
   },
   {
     name: 'Aime Fils',
