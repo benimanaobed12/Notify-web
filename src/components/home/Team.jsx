@@ -3,7 +3,7 @@ import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
 import SectionTitle from '../ui/SectionTitle'
 import Button from '../ui/Button'
 import AimeeFils from "../../assets/aimefils.jpg"
-import Ngabo from "../../assets/portfolio.jpg"
+import Ngabo from "../../assets/dani5.png"
 
 const teamMembers = [
   {
@@ -31,9 +31,8 @@ const teamMembers = [
     position: 'Full-Stack & Database Developer',
     image: Ngabo,
     social: {
-      github: '#',
-      linkedin: '#',
-      twitter: '#'
+      github: 'https://github.com/ngabodaniel1000',
+      linkedin: 'https://www.linkedin.com/in/ngabo-daniel-011118283/'
     }
   }
 ]
@@ -83,15 +82,7 @@ const Team = () => {
                     >
                       <FiLinkedin className="w-5 h-5" />
                     </a>
-                    <a 
-                      href={member.social.twitter} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-white hover:text-secondary-300 transition-colors"
-                      aria-label="Twitter"
-                    >
-                      <FiTwitter className="w-5 h-5" />
-                    </a>
+                   
                   </div>
                 </div>
               </div>
