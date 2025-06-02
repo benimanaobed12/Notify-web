@@ -3,6 +3,8 @@ import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
 import SectionTitle from '../components/ui/SectionTitle'
 import AimeeFils from "../assets/aimefils.jpg"
 import Ngabo from "../assets/dani5.png"
+import Ngabo from "../assets/portfolio.jpg"
+import Hypolite from "../assets/hypolite.jpg"
 const teamMembers = [
   {
     name: 'Neza Hakim',
@@ -59,12 +61,12 @@ const teamMembers = [
     }
   },
   {
-    name: 'Eric Mugabo',
-    position: 'Backend Developer',
-    bio: 'Specializes in building robust server-side applications and APIs.',
-    image: 'https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    name: 'Iratuzi Hypolite',
+    position: 'Full-Stack Developer',
+    bio: 'Specializes in building frontend and robust server-side applications and APIs.',
+    image: Hypolite,
     social: {
-      github: '#',
+      github: 'https://github.com/loxxcode/',
       linkedin: '#',
       twitter: '#'
     }
