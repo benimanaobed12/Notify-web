@@ -3,7 +3,6 @@ import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
 import SectionTitle from '../components/ui/SectionTitle'
 import AimeeFils from "../assets/aimefils.jpg"
 import Ngabo from "../assets/dani5.png"
-import Ngabo from "../assets/portfolio.jpg"
 import Hypolite from "../assets/hypolite.jpg"
 const teamMembers = [
   {
