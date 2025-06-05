@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import SectionTitle from '../components/ui/SectionTitle'
 import Button from '../components/ui/Button'
+import Worldtech from "../assets/worldx-tech.png"
 
 const projects = [
   {
@@ -16,12 +17,12 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Healthcare Management System',
-    category: 'Software Development',
-    image: 'https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    description: 'A comprehensive system for managing healthcare services, patient records, appointments, and medical inventory.',
-    client: 'Gisenyi Medical Center',
-    technologies: ['React', 'Express.js', 'PostgreSQL', 'Socket.io'],
+    title: 'World X-Tech',
+    category: 'Web Development Development',
+    image: Worldtech,
+    description: 'A comprehensive software that discover the latest innovations in AI, Space Exploration, Virtual Reality, and more. Stay ahead with cutting-edge technological advancements.',
+    client: "Not assigned",
+    technologies: ['React', 'Taiwlind css'],
     year: 2024
   },
   {

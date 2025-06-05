@@ -4,6 +4,8 @@ import SectionTitle from '../components/ui/SectionTitle'
 import AimeeFils from "../assets/aimefils.jpg"
 import Nsanzineza from "../assets/nsanzineza moise.jpg"
 import Ngabo from "../assets/portfolio.jpg"
+import Ngabo from "../assets/dani5.png"
+import Hypolite from "../assets/hypolite.jpg"
 const teamMembers = [
   {
     name: 'Neza Hakim',
@@ -33,9 +35,8 @@ const teamMembers = [
     bio: 'Expert in backend development, frontend development, and database administration.',
     image: Ngabo,
     social: {
-      github: '#',
-      linkedin: '#',
-      twitter: '#'
+      github: 'https://github.com/ngabodaniel1000',
+      linkedin: 'https://www.linkedin.com/in/ngabo-daniel-011118283/'
     }
   },
   {
@@ -61,12 +62,12 @@ const teamMembers = [
     }
   },
   {
-    name: 'Eric Mugabo',
-    position: 'Backend Developer',
-    bio: 'Specializes in building robust server-side applications and APIs.',
-    image: 'https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    name: 'Iratuzi Hypolite',
+    position: 'Full-Stack Developer',
+    bio: 'Specializes in building frontend and robust server-side applications and APIs.',
+    image: Hypolite,
     social: {
-      github: '#',
+      github: 'https://github.com/loxxcode/',
       linkedin: '#',
       twitter: '#'
     }
@@ -153,15 +154,7 @@ const Team = () => {
                       >
                         <FiLinkedin className="w-5 h-5" />
                       </a>
-                      <a 
-                        href={member.social.twitter} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-white hover:text-secondary-300 transition-colors"
-                        aria-label="Twitter"
-                      >
-                        <FiTwitter className="w-5 h-5" />
-                      </a>
+                   
                     </div>
                   </div>
                 </div>
